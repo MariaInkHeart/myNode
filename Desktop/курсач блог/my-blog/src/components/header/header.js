@@ -21,7 +21,7 @@ const HeaderContainer = ({ className }) => (
 
 export const Header = styled(HeaderContainer)`
 	display: flex;
-	jestify-content: space-between;
+	justify-content: space-between;
 	position: fixed;
 	top: 0;
 	width: 1000px;
