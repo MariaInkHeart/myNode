@@ -2,42 +2,42 @@
   "users": [
     {
       "id": "001",
-      "login": "andrei",
-      "password": "qwerty123",
+      "login": "maria",
+      "password": "123456",
       "registed_at": "2050-09-22",
       "role_id": 0
     },
     {
-      "login": "ivan",
-      "password": "123456",
-      "registed_at": "2023-09-30 09:36",
+      "login": "zaia",
+      "password": "zaia12",
+      "registed_at": "2023-10-02 20:06",
       "role_id": 2,
-      "id": "8wUCz1B"
+      "id": "-IT2XT2"
     },
     {
-      "login": "ivan2",
+      "login": "ivandurak",
       "password": "123456",
-      "registed_at": "2023-09-30 09:42",
+      "registed_at": "2023-10-02 20:07",
       "role_id": 2,
-      "id": "KjWtUzn"
+      "id": "1_ggCtZ"
     }
   ],
   "roles": [
     {
       "id": 0,
-      "name": "Admin"
+      "name": "Администратор"
     },
     {
       "id": 1,
-      "name": "Moderator"
+      "name": "Модератор"
     },
     {
       "id": 2,
-      "name": "Reader"
+      "name": "Читатель"
     },
     {
       "id": 3,
-      "name": "Guest"
+      "name": "Гость"
     }
   ],
   "posts": [
