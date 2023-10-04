@@ -77,5 +77,79 @@
       "published_at": "2049-05-02"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 15:39",
+      "content": "ghbdtn",
+      "id": 1
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:06",
+      "content": "колька зайка",
+      "id": 2
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:06",
+      "content": "рыбки пляшут в пруду",
+      "id": 3
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:06",
+      "content": "рыбки пляшут в снегу",
+      "id": 4
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:06",
+      "content": "птички пляшут в мозгу",
+      "id": 5
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:38",
+      "content": "test comment",
+      "id": 6
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2023-10-04 16:40",
+      "content": "test comment2",
+      "id": 7
+    }
+  ],
+  "sessions": [
+    {
+      "hash": "0.03874128889554273591500077600358054041862487792969",
+      "user": {
+        "id": "001",
+        "login": "maria",
+        "password": "123456",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": 1
+    },
+    {
+      "hash": "0.62980077269820355923002352938055992126464843750000",
+      "user": {
+        "id": "001",
+        "login": "maria",
+        "password": "123456",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": 2
+    }
+  ]
 }

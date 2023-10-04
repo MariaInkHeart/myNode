@@ -17,7 +17,7 @@ export const Icon = styled(IconContainer)`
 	margin: ${({ margin = "0" }) => margin};
 	color: ${({ disabled }) => (disabled ? "#ccc" : "#000")};
 
-	$:hover {
+	&:hover {
 		cursor: pointer;
 	}
 `;
