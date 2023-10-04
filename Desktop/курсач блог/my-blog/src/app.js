@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import styled from "styled-components";
-import { Header, Footer } from "./components";
+import { Header, Footer, Modal } from "./components";
 import { Authorization, Post, Registration, Users } from "./pages";
 import { useLayoutEffect } from "react";
 import { setUser } from "./actions";
@@ -70,6 +70,7 @@ export const App = () => {
 				</Routes>
 			</Page>
 			<Footer />
+			<Modal />
 		</AppColumn>
 	);
 };

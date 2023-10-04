@@ -81,13 +81,6 @@
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2023-10-04 15:39",
-      "content": "ghbdtn",
-      "id": 1
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
       "published_at": "2023-10-04 16:06",
       "content": "колька зайка",
       "id": 2
@@ -116,16 +109,16 @@
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2023-10-04 16:38",
-      "content": "test comment",
-      "id": 6
+      "published_at": "2023-10-04 20:15",
+      "content": "asdfbnm,jhgfd",
+      "id": 7
     },
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2023-10-04 16:40",
-      "content": "test comment2",
-      "id": 7
+      "published_at": "2023-10-04 20:15",
+      "content": "sdfvbnmnjhytre",
+      "id": 8
     }
   ],
   "sessions": [
