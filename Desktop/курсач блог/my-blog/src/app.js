@@ -57,7 +57,7 @@ export const App = () => {
 					/>
 					<Route
 						path="/post"
-						element={<div>New article</div>}
+						element={<Post />}
 					/>
 					<Route
 						path="/post/:id"
