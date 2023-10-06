@@ -20,6 +20,13 @@
       "registed_at": "2023-10-02 20:07",
       "role_id": 2,
       "id": "1_ggCtZ"
+    },
+    {
+      "login": "kolka",
+      "password": "123456",
+      "registed_at": "2023-10-06 19:48",
+      "role_id": 2,
+      "id": "-u5JMux"
     }
   ],
   "roles": [
@@ -124,13 +131,6 @@
       "author_id": "001",
       "post_id": "002",
       "published_at": "2023-10-05 16:20",
-      "content": "adfghj",
-      "id": 2
-    },
-    {
-      "author_id": "001",
-      "post_id": "002",
-      "published_at": "2023-10-05 16:20",
       "content": "1234",
       "id": 3
     },
@@ -147,6 +147,20 @@
       "published_at": "2023-10-06 17:44",
       "content": "123",
       "id": 5
+    },
+    {
+      "author_id": "-IT2XT2",
+      "post_id": "002",
+      "published_at": "2023-10-06 19:45",
+      "content": "kolka zaika",
+      "id": 7
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2023-10-06 20:44",
+      "content": "delete",
+      "id": 8
     }
   ],
   "sessions": [
@@ -182,6 +196,17 @@
         "roleId": 0
       },
       "id": 3
+    },
+    {
+      "hash": "0.78773036968881315900148365471977740526199340820313",
+      "user": {
+        "login": "kolka",
+        "password": "123456",
+        "registed_at": "2023-10-06 19:48",
+        "role_id": 2,
+        "id": "-u5JMux"
+      },
+      "id": 4
     }
   ]
 }
