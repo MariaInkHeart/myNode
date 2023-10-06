@@ -11,7 +11,7 @@
       "login": "zaia",
       "password": "zaia12",
       "registed_at": "2023-10-02 20:06",
-      "role_id": 2,
+      "role_id": 1,
       "id": "-IT2XT2"
     },
     {
@@ -140,6 +140,13 @@
       "published_at": "2023-10-05 16:20",
       "content": "numero 4",
       "id": 4
+    },
+    {
+      "author_id": "001",
+      "post_id": "003",
+      "published_at": "2023-10-06 17:44",
+      "content": "123",
+      "id": 5
     }
   ],
   "sessions": [
