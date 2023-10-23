@@ -4,12 +4,16 @@ document.addEventListener("click", (event) => {
     remove(id).then(() => {
       event.target.closest("li").remove();
     });
-  } else if (event.target.dataset.type === "edit") {
+  } else if (event.target.dataset.type === "put") {
     const id = event.target.dataset.id;
     const newName = prompt("Введите новое название");
-    edit(id, newName).then(() => {
-      console.log("true");
-    });
+
+    if (newName != null) {
+      put(id, newName).then(() => {
+        const firstChild = event.target.closest("li").firstChild;
+        firstChild.textContent = newName;
+      });
+    }
   }
 });
 
@@ -19,10 +23,12 @@ async function remove(id) {
   });
 }
 
-async function edit(id, newName) {
+async function put(id, newName) {
   await fetch(`/${id}`, {
     method: "PUT",
-    title: JSON.stringify(newName),
-    id,
+    body: JSON.stringify({ newName }),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8",
+    },
   });
 }

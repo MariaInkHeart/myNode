@@ -46,14 +46,11 @@ async function removeNote(id) {
 
 async function editNote(id, newTitle) {
   const notes = await getNotes();
-  const noteToEdit = notes.findIndex((note) => note.id === id);
-  console.log("noteToEdit", noteToEdit);
-  // const oldTitle = notes.find.title((note) => note.id !== id);
-  const editedNote = (notes[noteToEdit].title = newTitle);
-  console.log("newTitle", newTitle);
-  console.log("edited", editedNote);
+  const index = notes.findIndex((note) => note.id === id);
+  notes[index] = { ...notes[index], title: newTitle };
 
-  await saveNotes(editedNote);
+  await saveNotes(notes);
+
   console.log(chalk.yellow.inverse("Note was edited!"));
 }
 
